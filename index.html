@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <form id="myForm" name="myForm">
+      <h1>Bank Loan Application Form</h1>
+      <br />
+      <pre id="notice">
+         *Kindly enter the correct information
+        in the Loan Application From
+      </pre>
+      <span> Full Name:</span> <br />
+      <input type="text" name="" id="fullName" class="form-input"  pattern="[A-Za-z ]{4,}"
+        title="Only alphabets and spaces allowed, minimum two words each with a minimum of four characters." />
+      <br /><br />
+
+      <span> Email:</span><br />
+      <input type="text" name="" id="email"class="form-input"  pattern="[^\s@]+@[^\s@]+\.[^\s@]+$" title="Enter valid Email id" />
+      <br /><br />
+
+      <span> PAN:</span><br />
+      <input type="text" name="" id="pan" class="form-input"  pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}"
+        title="Please enter a valid PAN number (format: ABCDE1234F)." />
+      <br /><br />
+
+      <span>Enter Loan Amount(Rs):</span><br />
+      <input type="text" name="" id="loanAmount" class="form-input"  />
+      <br /><br />
+
+      <span> Loan Tennure(Year):</span><br />
+      <input type="text" name="" id="ltennure" class="form-input"  />
+      <br /><br />
+
+      <input type="button" value="Calculate EMI" class="btn btn-primary btn-sm"  id="cal_emi" onclick="emicalcuator();" />
+      <br /><br />
+
+      <div>
+        <label for="">Estimated EMI: </label>
+        <span id="estimated"></span>
+      </div>
+      <br />
+      <a href="#confirm.html"><input type="submit" value="Submit" class="btn btn-primary btn-sm" id="submit" /></a>
+      
+      <input type="button" value="Reset" class="btn btn-primary btn-sm" id="reset" />
+
+
+    </form>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

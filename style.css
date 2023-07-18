@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#notice{
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+  width: 500px;
+  /* padding-left: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  background-color: #87bdd8 ;
+
+}
+
+#form-input {
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+#cal_emi {
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 5px;
+}
+#submit {
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 5px 10px;
+} */
+
+ #reset {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #000000;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+span {
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+form p span {
+  color:whitesmoke;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
