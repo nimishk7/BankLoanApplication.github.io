@@ -1,0 +1,2 @@
+![screencapture-file-C-Users-HP-Desktop-Full-Stack-Javascript-Bank-Loan-App-index-html-2023-07-18-22_47_24](https://github.com/nimishk7/BankLoanApplication.github.io/assets/99315622/1ba7be09-3dc8-4cf0-81e6-b110db890def)
+![screencapture-file-C-Users-HP-Desktop-Full-Stack-Javascript-Bank-Loan-App-confirm-html-2023-07-18-22_48_23](https://github.com/nimishk7/BankLoanApplication.github.io/assets/99315622/c47f032c-9d55-48e4-85e0-a3cdf04a2d06)
